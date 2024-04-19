@@ -86,21 +86,7 @@ G1.applyAOStar()
 G1.printSolution()
 
 """OUPUT
-Number of inversions: 0
-
-Found solution with cost 2
-
-Start State:
-[1, 2, 3]
-[4, 5, 6]
-[0, 7, 8]
-
-Step 1:
-[1, 2, 3]
-[4, 5, 6]
-[7, 0, 8]
-
-Step 2:
-[1, 2, 3]
-[4, 5, 6]
-[7, 8, 0]"""
+TRAVERSE THE GRAPH FROM THE START NODE: A
+------------------------------------------------------------
+{'I': [], 'G': ['I'], 'B': ['G'], 'J': [], 'C': ['J'], 'A': ['B', 'C']}
+------------------------------------------------------------"""
